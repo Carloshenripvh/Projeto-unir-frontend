@@ -28,5 +28,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/rocketseat-content/youtube-upload-nodejs-reactjs-frontend.git",
+  "author": "Carloshenripvh <canetar10@gmail.com>",
+  "license": "MIT"
 }

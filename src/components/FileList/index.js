@@ -9,7 +9,7 @@ const FileList = ({ files, onDelete }) => (
     {files.map(uploadedFile => (
       <li key={uploadedFile.id}>
         <FileInfo>
-          <Preview src={uploadedFile.preview} />
+          <Preview src={"https://openclipart.org/image/2400px/svg_to_png/237990/pdf17.png"} />
           <div>
             <strong>{uploadedFile.name}</strong>
             <span>
