@@ -10,7 +10,7 @@ function Routes(){
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Main} />
-        <Route path="/contato" component={Contato} />
+        <Route path="/resultado" component={Contato} />
         <Route path="*" component={NotFound} />
       </Switch>
     </BrowserRouter>
