@@ -108,10 +108,11 @@ class Main extends Component {
       <>
         <Upload onUpload={this.handleUpload} />
         {!!uploadedFiles.length && (
-          <>
+          <> 
+            <h4>Uploads recentes</h4>
             <FileList files={uploadedFiles} onDelete={this.handleDelete} />
             
-            <Link to="/contato">
+            <Link to="/resultado">
               <Button>Submit</Button>
             </Link>
 
